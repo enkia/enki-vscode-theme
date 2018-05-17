@@ -2,7 +2,7 @@
     "name": "enki-vscode-theme",
     "displayName": "Enki",
     "description": "A dark color scheme with purple, blue, and red (or green) tints for Visual Studio Code.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "enkia",
     "author": "Enkia <enki77@gmail.com>",
     "galleryBanner": {
@@ -47,7 +47,7 @@
                 "uiTheme": "vs-dark",
                 "path": "./themes/enki-rainbow.json"
             },
-                                    {
+            {
                 "label": "Enki - Rainbow Bro",
                 "uiTheme": "vs-dark",
                 "path": "./themes/enki-rainbow-bro.json"
