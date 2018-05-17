@@ -1,0 +1,64 @@
+{
+    "name": "enki-vscode-theme",
+    "displayName": "Enki",
+    "description": "A dark color scheme with purple, blue, and red (or green) tints for Visual Studio Code.",
+    "version": "0.1.0",
+    "publisher": "enkia",
+    "author": "Enkia <enki77@gmail.com>",
+    "galleryBanner": {
+        "color": "#19191f",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "license": "MIT",
+    "categories": [
+        "Themes",
+        "Other"
+    ],
+    "keywords": [
+        "theme",
+        "enki"
+    ],
+    "icon": "icon.png",
+    "homepage": "https://github.com/enkia/enki-vscode-theme/",
+    "repository": {
+        "url": "https://github.com/enkia/enki-vscode-theme",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://github.com/enkia/enki-vscode-theme/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Enki - Aster Red",
+                "uiTheme": "vs-dark",
+                "path": "./themes/enki-aster-red.json"
+            },
+            {
+                "label": "Enki - Aster Green",
+                "uiTheme": "vs-dark",
+                "path": "./themes/enki-aster-green.json"
+            },
+            {
+                "label": "Enki - Rainbow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/enki-rainbow.json"
+            },
+                                    {
+                "label": "Enki - Rainbow Bro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/enki-rainbow-bro.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "enki",
+                "label": "Enki",
+                "path": "./enki-icons.json"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./icons/file.svg"
+    },
+    "_folder_dark": {
+      "iconPath": "./icons/folder.svg"
+    },
+    "_folder_open_dark": {
+      "iconPath": "./icons/folder-open.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "_folder_dark",
+  "folderExpanded": "_folder_open_dark",
+  "hidesExplorerArrows": true,
+  "languageIds": {}
+}
