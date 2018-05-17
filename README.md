@@ -3,16 +3,16 @@ A dark color scheme with purple, blue, and red (or green) tints for Visual Studi
 
 ## Screenshots
 **Color Scheme:** Enki - Aster Green
-![Screenshot - Enki Aster Green](https://raw.githubusercontent.com/enki/enki-vscode-theme/master/static/screenshot_aster_green.png)
+![Screenshot - Enki Aster Green](https://github.com/enkia/enki-vscode-theme/blob/master/static/screenshot_aster_green.png)
 
 **Color Scheme:** Enki - Aster Red
-![Screenshot - Enki Aster Red](https://raw.githubusercontent.com/enki/enki-vscode-theme/master/static/screenshot_aster_red.png)
+![Screenshot - Enki Aster Red](https://github.com/enkia/enki-vscode-theme/blob/master/static/screenshot_aster_red.png)
 
 **Color Scheme:** Enki - Rainbow
-![Screenshot - Enki Rainbow](https://raw.githubusercontent.com/enki/enki-vscode-theme/master/static/screenshot_rainbow.png)
+![Screenshot - Enki Rainbow](https://github.com/enkia/enki-vscode-theme/blob/master/static/screenshot_rainbow.png)
 
 **Color Scheme:** Enki - Rainbow Bro
-![Screenshot - Enki Rainbow Bro](https://raw.githubusercontent.com/enki/enki-vscode-theme/master/static/screenshot_rainbow_bro.png)
+![Screenshot - Enki Rainbow Bro](https://github.com/enkia/enki-vscode-theme/blob/master/static/screenshot_rainbow_bro.png)
 
 ## Installation
 * **Recommended:** [Search for *Enki* and install via the extension gallery.](https://code.visualstudio.com/docs/editor/extension-gallery)
