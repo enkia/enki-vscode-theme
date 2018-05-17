@@ -244,6 +244,7 @@
 				"entity.name.type.class",
 				"support.type",
 				"support.class",
+				"entity.name.type.namespace",
 				"variable.other.global punctuation.definition.variable",
 				"variable.other.class.js",
 				"variable.other.global",
@@ -1225,7 +1226,10 @@
 		},
 		{
 			"name": "PHP - method call",
-			"scope":  "meta.method-call.php",
+			"scope":  [
+				"meta.method-call.php",
+				"meta.method-call.php entity.name.function.php" 				
+			],
 			"settings": {
 				"foreground": "#CCA1D6"
 			}

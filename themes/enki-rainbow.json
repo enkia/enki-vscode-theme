@@ -215,8 +215,6 @@
 				"variable.other.object",
 				"entity.name.class",
 				"entity.name.type.class",
-				"support.type",
-				"support.class",
 				"variable.other.global punctuation.definition.variable"
 			],
 			"settings": {
@@ -258,6 +256,7 @@
 				"entity.name.type.class",
 				"support.type",
 				"support.class",
+				"entity.name.type.namespace",
 				"variable.other.global",
 				"variable.other.global punctuation.definition.variable",
 				"variable.other.class.js",
@@ -555,7 +554,9 @@
 		{
 			"name": "Method call",
 			"scope": [
-				"meta.method-call entity.name.function"
+				"meta.method-call entity.name.function",
+				"meta.method-call.php",
+				"meta.method-call.php entity.name.function.php" 				
 			],
 			"settings": {
 				"fontStyle": "normal",
