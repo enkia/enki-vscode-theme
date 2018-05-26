@@ -1,4 +1,8 @@
 # CHANGELOG: Enki for Visual Studio Code
+## 0.3.1
+`2018-5-26`
+- Add Active Indent Guide color
+
 ## 0.3.0
 `2018-5-17`
 - Make various PHP syntax changes
