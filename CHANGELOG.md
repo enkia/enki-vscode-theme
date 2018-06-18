@@ -1,4 +1,10 @@
 # CHANGELOG: Enki for Visual Studio Code
+## 0.3.2
+`2018-6-18`
+- Add Unused Variable color
+- Change Panel background color
+- Change List Inactive Selection background
+
 ## 0.3.1
 `2018-5-26`
 - Add Active Indent Guide color
