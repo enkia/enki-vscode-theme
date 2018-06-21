@@ -214,7 +214,6 @@
 		{
 			"name": "Variable - other",
 			"scope": [
-				"variable.other.object",
 				"entity.name.class",
 				"entity.name.type.class",
 				"variable.other.global punctuation.definition.variable"
@@ -228,6 +227,7 @@
 			"scope": [
 				"variable",
 				"variable.other.readwrite",
+				"variable.other.object",
 				"meta.property.object.js variable.other.object.js",
 				"variable.less",
 				"variable.other.normal",
@@ -274,7 +274,7 @@
 			"settings": {
 				"foreground": "#C33C4A"
 			}
-		},		
+		},
 		{
 			"name": "Object Property, Module",
 			"scope": [
@@ -284,7 +284,7 @@
 			"settings": {
 				"foreground": "#B376B3"
 			}
-		},		
+		},
 		{
 			"name": "Variable scss/less",
 			"scope": [
@@ -384,8 +384,7 @@
 			"name": "Storage Type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#6D3B66"
+				"foreground": "#F99157"
 			}
 		},
 		{
@@ -558,7 +557,7 @@
 			"scope": [
 				"meta.method-call entity.name.function",
 				"meta.method-call.php",
-				"meta.method-call.php entity.name.function.php" 				
+				"meta.method-call.php entity.name.function.php"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -595,7 +594,10 @@
 		},
 		{
 			"name": "Function (Object Literal)",
-			"scope": "entity.name.function",
+			"scope": [
+				"entity.name.function",
+				"support.function.magic"
+			],
 			"settings": {
 				"foreground": "#FF435B"
 			}
@@ -1260,7 +1262,7 @@
 				"keyword.operator.smarty"
 			],
 			"settings": {
-				"foreground": "#F99157"
+				"foreground": "#ca9b55"
 			}
 		},
 		{

@@ -113,7 +113,7 @@
 		"editorGroup.dropBackground": "#20222c",
 		"editorGroupHeader.tabsBorder": "#1e1e25",
 		"editorGroupHeader.tabsBackground": "#16161b",
-		"editorGroupHeader.noTabsBackground": "#16161b",		
+		"editorGroupHeader.noTabsBackground": "#16161b",
 		"tab.unfocusedHoverBorder": "#acb0d0",
 		"tab.activeBackground": "#16161b",
 		"tab.inactiveBackground": "#16161b",
@@ -230,9 +230,8 @@
 		{
 			"name": "Variable - other",
 			"scope": [
-				"variable.other.object",
 				"entity.name.class",
-				"entity.name.type.class",				
+				"entity.name.type.class",
 				"variable.other.global punctuation.definition.variable"
 			],
 			"settings": {
@@ -244,6 +243,7 @@
 			"scope": [
 				"variable",
 				"variable.other.readwrite",
+				"variable.other.object",
 				"meta.property.object.js variable.other.object.js",
 				"variable.less",
 				"variable.other.normal",
@@ -289,7 +289,7 @@
 			"settings": {
 				"foreground": "#C33C4A"
 			}
-		},	
+		},
 		{
 			"name": "Object Property, Module",
 			"scope": [
@@ -299,7 +299,7 @@
 			"settings": {
 				"foreground": "#1ABC9C"
 			}
-		},			
+		},
 		{
 			"name": "Variable scss/less",
 			"scope": [
@@ -399,8 +399,7 @@
 			"name": "Storage Type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#455682"
+				"foreground": "#F99157"
 			}
 		},
 		{
@@ -520,7 +519,7 @@
 			"settings": {
 				"foreground": "#6189bb"
 			}
-		},		
+		},
 		{
 			"name": "Punctuation [square]",
 			"scope": [
@@ -610,11 +609,14 @@
 		},
 		{
 			"name": "Function (Object Literal)",
-			"scope": "entity.name.function",
+			"scope": [
+				"entity.name.function",
+				"support.function.magic"
+			],
 			"settings": {
 				"foreground": "#FF435B"
 			}
-		},		
+		},
 		{
 			"name": " PHP Function round bracket",
 			"scope": [
@@ -896,7 +898,7 @@
 			"settings": {
 				"foreground": "#ca9b55"
 			}
-		},		
+		},
 		{
 			"name": "SCSS set",
 			"scope": [
@@ -1248,7 +1250,7 @@
 				"keyword.operator.smarty"
 			],
 			"settings": {
-				"foreground": "#F99157"
+				"foreground": "#ca9b55"
 			}
 		},
 		{
