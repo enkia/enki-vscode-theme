@@ -1,4 +1,13 @@
 # CHANGELOG: Enki for Visual Studio Code
+
+## 0.3.3
+`2018-6-20`
+- Fix Aster Red Panel background color
+- Update Smarty template colors
+- Fix Rainbow PHP function colors
+- Change Rainbow storage type color
+- Change Rainbow variable color
+
 ## 0.3.2
 `2018-6-18`
 - Add Unused Variable color
