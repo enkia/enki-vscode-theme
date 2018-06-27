@@ -1,5 +1,9 @@
 # CHANGELOG: Enki for Visual Studio Code
 
+## 0.4.0
+`2018-6-27`
+- Add Night Owl Bonus Theme
+
 ## 0.3.3
 `2018-6-20`
 - Fix Aster Red Panel background color

@@ -14,6 +14,10 @@ A dark color scheme with purple, blue, and red (or green) tints for Visual Studi
 **Color Scheme:** Enki - Rainbow Bro
 ![Screenshot - Enki Rainbow Bro](https://raw.githubusercontent.com/enkia/enki-vscode-theme/master/static/screenshot_rainbow_bro.png)
 
+**Color Scheme:** Enki - Night Owl  
+This uses the famed and personally beloved [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) UI with a few minor changes and the Aster Green syntax color scheme. 
+![Screenshot - Enki Night Owl](https://raw.githubusercontent.com/enkia/enki-vscode-theme/master/static/screenshot_night_owl.png)
+
 ## Installation
 * **Recommended:** [Search for *Enki* and install via the extension gallery.](https://code.visualstudio.com/docs/editor/extension-gallery)
 *Note:* There is a port of my Sublime theme made by someone else called 'Enki Theme.' Be sure to grab the correct one. This one is simply called *Enki.*
@@ -27,6 +31,8 @@ A dark color scheme with purple, blue, and red (or green) tints for Visual Studi
 * [Material Design Icons](https://materialdesignicons.com/)
 
 ## Bonus
-`enki.itermcolors` and `enki.terminal` are supplied in this theme's ~/.vscode/extensions folder.
+`enki.itermcolors` and `enki.terminal` are supplied in this theme's ~/.vscode/extensions folder.  
+
+
 
 **Enjoy!**
