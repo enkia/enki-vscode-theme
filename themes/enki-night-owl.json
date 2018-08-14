@@ -66,12 +66,16 @@
 	    "editorGroupHeader.noTabsBackground": "#32374C",
 	    "editorGroupHeader.tabsBackground": "#011627",
 	    "editorGroupHeader.tabsBorder": "#102a44",
+	    "breadcrumbPicker.background": "#001122",
+	    "breadcrumb.foreground": "#5f7e97",
+	    "breadcrumb.focusForeground": "#d2dee7",
+	    "breadcrumb.activeSelectionForeground": "#d2dee7",	    
 	    "tab.activeBackground": "#0b2942",
 	    "tab.activeForeground": "#d2dee7",
 	    "tab.border": "#102a44",
 	    "tab.activeBorder": "#102a44",
 	    "tab.unfocusedActiveBorder": "#102a44",
-	    "tab.inactiveBackground": "#010e1a",
+	    "tab.inactiveBackground": "#001122",
 	    "tab.inactiveForeground": "#5f7e97",
 	    "tab.unfocusedActiveForeground": "#5f7e97",
 	    "tab.unfocusedInactiveForeground": "#5f7e97",
@@ -795,10 +799,11 @@
 			}
 		},
 		{
-			"name": "HTML Text",
+			"name": "HTML Text, ENV String",
 			"scope": [
 				"text.html",
 				"text.plain",
+				"source.env",
 				"meta.tag meta.jsx.children"
 			],
 			"settings": {

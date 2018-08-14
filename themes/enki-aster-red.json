@@ -114,6 +114,10 @@
 		"editorGroupHeader.tabsBorder": "#1e1e25",
 		"editorGroupHeader.tabsBackground": "#16161b",
 		"editorGroupHeader.noTabsBackground": "#16161b",
+		"breadcrumbPicker.background": "#16161b",
+		"breadcrumb.foreground": "#787c99",
+		"breadcrumb.focusForeground": "#acb0d0",
+		"breadcrumb.activeSelectionForeground": "#acb0d0",		
 		"tab.unfocusedHoverBorder": "#acb0d0",
 		"tab.activeBackground": "#16161b",
 		"tab.inactiveBackground": "#16161b",
@@ -685,7 +689,7 @@
 		{
 			"name": "String, Symbols, Inherited Class",
 			"scope": [
-				"string",
+				"string",		
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -780,10 +784,11 @@
 			}
 		},
 		{
-			"name": "HTML Text",
-			"scope": [
+			"name": "HTML Text, ENV String",
+			"scope": [				
 				"text.html",
 				"text.plain",
+				"source.env",
 				"meta.tag meta.jsx.children"
 			],
 			"settings": {
@@ -1011,7 +1016,6 @@
 		{
 			"name": "SCSS - {curly}",
 			"scope": [
-
 				"meta.at-rule.mixin.scss",
 				"punctuation.section.property-list",
 				"punctuation.separator.parameters.scss"

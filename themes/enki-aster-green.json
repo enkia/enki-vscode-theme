@@ -114,6 +114,10 @@
 		"editorGroupHeader.tabsBorder": "#1e1e25",
 		"editorGroupHeader.tabsBackground": "#16161b",
 		"editorGroupHeader.noTabsBackground": "#16161b",
+		"breadcrumbPicker.background": "#16161b",
+		"breadcrumb.foreground": "#787c99",
+		"breadcrumb.focusForeground": "#acb0d0",
+		"breadcrumb.activeSelectionForeground": "#acb0d0",
 		"tab.unfocusedHoverBorder": "#acb0d0",
 		"tab.activeBackground": "#16161b",
 		"tab.inactiveBackground": "#16161b",
@@ -185,7 +189,7 @@
 		"terminal.ansiBrightBlue": "#6582af",
 		"terminal.ansiBrightMagenta": "#9D599D",
 		"terminal.ansiBrightCyan": "#7ed6f9",
-		"terminal.ansiBrightWhite": "#707386",
+		"terminal.ansiBrightWhite": "#707386",		
 		"gitDecoration.modifiedResourceForeground": "#6189bb",
 		"gitDecoration.ignoredResourceForeground": "#52576e",
 		"gitDecoration.untrackedResourceForeground": "#1ABC9C",
@@ -782,10 +786,11 @@
 			}
 		},
 		{
-			"name": "HTML Text",
+			"name": "HTML Text, ENV String",
 			"scope": [
 				"text.html",
 				"text.plain",
+				"source.env",
 				"meta.tag meta.jsx.children"
 			],
 			"settings": {

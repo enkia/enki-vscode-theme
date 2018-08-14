@@ -1,5 +1,13 @@
 # CHANGELOG: Enki for Visual Studio Code
 
+## 0.4.2
+`2018-8-14`
+- Add breadcrumb UI colors
+
+## 0.4.1
+`2018-7-27`
+- Add ENV string syntax color
+
 ## 0.4.0
 `2018-6-27`
 - Add Night Owl Bonus Theme
